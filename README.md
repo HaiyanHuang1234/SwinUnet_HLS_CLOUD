@@ -119,22 +119,9 @@ test_data/label/
 
 Creates contrast-enhanced RGB composites from multi-band imagery.
 
-Features:
-
-* Percentile-based stretching
-* User-defined RGB bands
-* High-resolution export
-* Consistent stretching across scenes
-
 ### plot_without_border.py
 
 Displays or exports raster images without axes, borders, or extra whitespace.
-
-Features:
-
-* Borderless output
-* Optional colorbar support
-* High-resolution figure export
 
 ---
 
@@ -142,49 +129,21 @@ Features:
 
 ### Tile T43QCA
 
-#### RGB Composite
+ RGB Composite | Reference Mask | Model Prediction |
+|---------------|---------------|------------------|
+| ![](jpegs/T43QCA_rgb.jpeg) | ![](jpegs/T43QCA_ref.jpeg) | ![](jpegs/T43QCA_pred.jpeg) |
 
-```markdown
-![T43QCA RGB](jpegs/T43QCA_rgb.jpeg)
-```
 
-#### Reference Cloud Mask
 
-```markdown
-![T43QCA Reference](jpegs/T43QCA_ref.jpeg)
-```
-
-It will replicate the examples shown in Figure 8 of the paper https://doi.org/10.1016/j.srs.2025.100213
-More test data can be found at https://zenodo.org/records/13910150.
-
-#### Model Prediction
-
-```markdown
-![T43QCA Prediction](jpegs/T43QCA_pred.jpeg)
-```
-
----
 
 ### Tile T56WMU
 
-#### RGB Composite
+ RGB Composite | Reference Mask | Model Prediction |
+|---------------|---------------|------------------|
+| ![](jpegs/T56WMU_rgb.jpeg) | ![](jpegs/T56WMU_ref.jpeg) | ![](jpegs/T56WMU_pred.jpeg) |
 
-```markdown
-![T56WMU RGB](jpegs/T56WMU_rgb.jpeg)
-```
 
-#### Reference Cloud Mask
-
-```markdown
-![T56WMU Reference](jpegs/T56WMU_ref.jpeg)
-```
-
-#### Model Prediction
-
-```markdown
-![T56WMU Prediction](jpegs/T56WMU_pred.jpeg)
-```
-
+More test cases can be found at https://zenodo.org/records/13910150
 
 
 ## Applications
@@ -202,8 +161,6 @@ The model is suitable for:
 ---
 
 ## Citation
-
-# Citation
 
 If you use this work, please cite it as:
 
