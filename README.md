@@ -176,7 +176,7 @@ More test data can be found at https://zenodo.org/records/13910150.
 #### Reference Cloud Mask
 
 ```markdown
-![T56WMU Reference](test_data/jpegs/T56WMU_ref.jpeg)
+![T56WMU Reference](jpegs/T56WMU_ref.jpeg)
 ```
 
 #### Model Prediction
